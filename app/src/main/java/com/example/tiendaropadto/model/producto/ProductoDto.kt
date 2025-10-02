@@ -6,10 +6,11 @@ class ProductoDto (
     val marca: String="",
     val precioInicial: Double=0.0,
     val precioFinal: Double=0.0,
-    val talla: TALLA,
-    val color: COLOR,
-    val botones: Int,
-    val bolsillos: Int,
-    val conCapucha: Boolean,
-    val nivelAbrigo: Int
+    val talla: TALLA?=null,
+    val color: COLOR?=null,
+    val botones: Int=0,
+    val bolsillos: Int=0,
+    val conCapucha: Boolean=false,
+    val nivelAbrigo: Int=0,
+
 )
